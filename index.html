@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Item Lister</title>
+    </head>
+    <body>
+        <header id="main-header">
+            <div class="header container">
+                <h1 class="header-title">item lister</h1>
+                <input type="text" id="filter" placeholder="Search items...">
+            </div>
+            <div class="clearfix"></div>
+        </header>
+        <div class="container">
+            <div id="main" class="">
+                <h2 id="title">add items</h2>
+                <form id="addForm">
+                    <input type="text" name="addItem" id="item" placeholder="Type an item here">
+                    <button type="submit">Submit</button>
+                </form>
+                <h2 class="items title">items</h2>
+                <ul id="items">
+                    <li class="list-group-item">item 1<button class="delete-btn">X</button></li>
+                    <li class="list-group-item">item 2<button class="delete-btn">X</button></li>
+                    <li class="list-group-item">item 3<button class="delete-btn">X</button></li>
+                    <li class="list-group-item">item 4<button class="delete-btn">X</button></li>
+                </ul>
+            </div>
+        </div>
+        <script src="script/script.js"></script>
+    </body>
+</html>
